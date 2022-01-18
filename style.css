@@ -1,0 +1,41 @@
+:root{
+    --background-color: #151316;
+    --text-color: whitesmoke;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header{
+    margin: auto;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+header p{
+    font-weight: 100;
+}
+
+header h1, #name p{
+    margin: 0px;
+}
+
+#bio{
+    text-align: center;
+}
+
+#bio p{
+    margin: 0%;
+}
+
+button{
+    width: 50%;
+}
